@@ -32,10 +32,6 @@ header {
     border-bottom: 5px solid #005bb5;
 }
 
-header h1, header h3 {
-    margin-bottom: 10px;
-}
-
 form {
     margin-top: 20px;
     padding: 15px;
@@ -79,6 +75,11 @@ ul li {
     margin-top: 5px;
     border-radius: 5px;
     font-size: 16px;
+    cursor: pointer;
+}
+
+ul li.completed {
+    text-decoration: line-through;
 }
 
 footer {
